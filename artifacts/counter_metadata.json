@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"stressTest.sol": "counter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"stressTest.sol": {
+			"keccak256": "0x31c4aaa8240cad24e44ee2753ea87e5a220b9539b946c800fb1d4ca93284af37",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aefc5533353a4bd03f81b35d44c1f8e99917114bbbbd39b97b59c76074f626e1",
+				"dweb:/ipfs/QmRfhrrU4DBhTL6DGX1991c1a7fLRpw2sSRbGKsGGK32hA"
+			]
+		}
+	},
+	"version": 1
+}
