@@ -4,7 +4,104 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "div",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "mul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "sub",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +130,11 @@
 	},
 	"sources": {
 		"functionsChallenge.sol": {
-			"keccak256": "0x87e525fd25401cf9d223b42874563821ae39e6154d346dd416bbb2ca0ec3ec19",
+			"keccak256": "0xebaf9a1738b74fa12f384a13a491cf798847f8fbae8b5170f1634367b6121d18",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f25058f9eccf7731ec36126e9223758a1031114aeb040a33e2ace0e55cdc1d43",
-				"dweb:/ipfs/QmaN1rb2p6id81Vsp9raoiyhPp895QxvAADso7WZkm223F"
+				"bzz-raw://276f24336c3a777be6b0d2fdaa1945f0de682ef6f118485fa1b77c65ac579eef",
+				"dweb:/ipfs/QmRc9gPQ53dCQytS9s3PNTPf6bFrn7E5KMr8o66sLg99EK"
 			]
 		}
 	},
