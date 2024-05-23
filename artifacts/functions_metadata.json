@@ -4,7 +4,56 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "sub",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +82,11 @@
 	},
 	"sources": {
 		"functions.sol": {
-			"keccak256": "0x9d4b812585323cebf8e62abaf78e1bdbe6988df5d39b04c97277223341de8e18",
+			"keccak256": "0x18b836ce7d900c6e00f3de76fef5396d17968bdb026737d7e20a4779628f67bc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5c93bb9f8ee520ef2bbccc14c09a0322296214c3114179abdac5fc305910ad2c",
-				"dweb:/ipfs/QmPjoqZt9y23m164eyznvxK8o8e1Er8Kc4pLQvkadYJ58Y"
+				"bzz-raw://0f7655ac9b7593dabca1482ed32d914c70c8eb9e4f065e1e29150f534de7b2f6",
+				"dweb:/ipfs/QmS191ne247V7SpiY3uk8nB88hdsNfPKyNavqHGw9gQPs8"
 			]
 		}
 	},
